@@ -5,12 +5,15 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p className="Text-home">Olá, sejam bem vindos ao futuro. Você está sendo chamado para participar dele antes</p>
-       <div className="Button-next-home">
+        <div className="Cabecalho">
+        <button className="button-tutorial">Tutorial</button>
+        </div>
+        <p className="Text-home">Parabéns, você esta sendo convidado a participar do futuro primeiro</p>
+        <p className="Text-home"> Gostaria dessa chance única?</p>
+      </header>
+      <div className="Button-next-home">
          <button className="next-home" > Quero fazer parte </button>
        </div>
-        
-      </header>
     </div>
   );
 }
